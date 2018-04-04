@@ -1,8 +1,8 @@
 springboot-testcontainer-redis
 ==============================
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.testcontainer/springboot-testcontainer-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.testcontainer/springboot-testcontainer-redis)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/xxx)](https://www.codacy.com/app/springboot-testcontainer/springboot-testcontainer-redis)
+[![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/testcontainer/springboot-testcontainer-redis/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.testcontainer%22%20AND%20a%3A%22springboot-testcontainer-redis%22)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springboot-testcontainer/springboot-testcontainer-redis&amp;utm_campaign=Badge_Grade)
 [![Coverage Status](https://coveralls.io/repos/springboot-testcontainer/springboot-testcontainer-redis/badge.svg)](https://coveralls.io/r/springboot-testcontainer/springboot-testcontainer-redis)
 [![Build Status](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis.svg?branch=master)](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis)
 
