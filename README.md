@@ -11,7 +11,7 @@ springboot-testcontainer-redis
 <dependency>
 	<groupId>com.avides.springboot.testcontainer</groupId>
 	<artifactId>springboot-testcontainer-redis</artifactId>
-	<version>0.1.0-RC4</version>
+	<version>0.1.0-RC5</version>
 	<scope>test</scope>
 </dependency>
 ```
@@ -20,7 +20,7 @@ springboot-testcontainer-redis
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.redis.enabled` (default is `true`)
 - `embedded.container.redis.startup-timeout` (default is `30`)
-- `embedded.container.redis.docker-image` (default is `redis:4.0.8-alpine`)
+- `embedded.container.redis.docker-image` (default is `redis:4.0.10-alpine`)
 - `embedded.container.redis.port` (default is `6379`)
 
 Properties provided (in `application-it.properties`):
