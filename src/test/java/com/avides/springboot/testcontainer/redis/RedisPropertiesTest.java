@@ -1,9 +1,9 @@
 package com.avides.springboot.testcontainer.redis;
 
-import org.junit.Test;
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
 
 public class RedisPropertiesTest
 {
@@ -13,7 +13,7 @@ public class RedisPropertiesTest
         RedisProperties properties = new RedisProperties();
         assertTrue(properties.isEnabled());
         assertEquals(30, properties.getStartupTimeout());
-        assertEquals("redis:4.0.8-alpine", properties.getDockerImage());
+        assertEquals("redis:4.0.10-alpine", properties.getDockerImage());
 
         assertEquals(6379, properties.getPort());
     }
