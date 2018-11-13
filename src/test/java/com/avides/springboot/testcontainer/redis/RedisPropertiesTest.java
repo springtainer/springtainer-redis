@@ -13,7 +13,7 @@ public class RedisPropertiesTest
         RedisProperties properties = new RedisProperties();
         assertTrue(properties.isEnabled());
         assertEquals(30, properties.getStartupTimeout());
-        assertEquals("redis:4.0.10-alpine", properties.getDockerImage());
+        assertEquals("redis:4.0.11-alpine", properties.getDockerImage());
 
         assertEquals(6379, properties.getPort());
     }

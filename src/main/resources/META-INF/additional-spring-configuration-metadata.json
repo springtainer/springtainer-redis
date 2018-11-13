@@ -17,7 +17,7 @@
 			"name": "embedded.container.redis.docker-image",
 			"type": "java.lang.String",
 			"description": "Docker-image",
-			"defaultValue": "redis:4.0.10-alpine"
+			"defaultValue": "redis:4.0.11-alpine"
 		},
 		{
 			"name": "embedded.container.redis.port",
