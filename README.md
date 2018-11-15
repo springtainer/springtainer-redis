@@ -2,8 +2,8 @@ springboot-testcontainer-redis
 ==============================
 
 [![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/testcontainer/springboot-testcontainer-redis/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.testcontainer%22%20AND%20a%3A%22springboot-testcontainer-redis%22)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=springboot-testcontainer/springboot-testcontainer-redis&amp;utm_campaign=Badge_Grade)
-[![Coverage Status](https://coveralls.io/repos/springboot-testcontainer/springboot-testcontainer-redis/badge.svg)](https://coveralls.io/r/springboot-testcontainer/springboot-testcontainer-redis)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis)
+[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis)
 [![Build Status](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis.svg?branch=master)](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis)
 
 ### Dependency
@@ -11,7 +11,7 @@ springboot-testcontainer-redis
 <dependency>
 	<groupId>com.avides.springboot.testcontainer</groupId>
 	<artifactId>springboot-testcontainer-redis</artifactId>
-	<version>0.1.0-RC5</version>
+	<version>0.1.0-RC6</version>
 	<scope>test</scope>
 </dependency>
 ```
@@ -20,7 +20,7 @@ springboot-testcontainer-redis
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.redis.enabled` (default is `true`)
 - `embedded.container.redis.startup-timeout` (default is `30`)
-- `embedded.container.redis.docker-image` (default is `redis:4.0.10-alpine`)
+- `embedded.container.redis.docker-image` (default is `redis:4.0.11-alpine`)
 - `embedded.container.redis.port` (default is `6379`)
 
 Properties provided (in `application-it.properties`):
