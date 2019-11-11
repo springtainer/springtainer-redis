@@ -1,17 +1,18 @@
-springboot-testcontainer-redis
-==============================
+# springboot-testcontainer-redis
 
 [![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/testcontainer/springboot-testcontainer-redis/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.testcontainer%22%20AND%20a%3A%22springboot-testcontainer-redis%22)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/72df4bf465a44e63895dd66b142bde8d)](https://www.codacy.com/app/avides-builds/springboot-testcontainer-redis)
-[![Build Status](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis.svg?branch=master)](https://travis-ci.org/springboot-testcontainer/springboot-testcontainer-redis)
+[![Build](https://github.com/springboot-testcontainer/springboot-testcontainer-redis/workflows/release/badge.svg)](https://github.com/springboot-testcontainer/springboot-testcontainer-redis/actions)
+[![Nightly build](https://github.com/springboot-testcontainer/springboot-testcontainer-redis/workflows/nightly/badge.svg)](https://github.com/springboot-testcontainer/springboot-testcontainer-redis/actions)
+[![Coverage report](https://sonarcloud.io/api/project_badges/measure?project=springboot-testcontainer_springboot-testcontainer-redis&metric=coverage)](https://sonarcloud.io/dashboard?id=springboot-testcontainer_springboot-testcontainer-redis)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=springboot-testcontainer_springboot-testcontainer-redis&metric=alert_status)](https://sonarcloud.io/dashboard?id=springboot-testcontainer_springboot-testcontainer-redis)
+[![Technical dept](https://sonarcloud.io/api/project_badges/measure?project=springboot-testcontainer_springboot-testcontainer-redis&metric=sqale_index)](https://sonarcloud.io/dashboard?id=springboot-testcontainer_springboot-testcontainer-redis)
 
 ### Dependency
 ```xml
 <dependency>
 	<groupId>com.avides.springboot.testcontainer</groupId>
 	<artifactId>springboot-testcontainer-redis</artifactId>
-	<version>0.1.0-RC9</version>
+	<version>1.0.0-RC1</version>
 	<scope>test</scope>
 </dependency>
 ```
