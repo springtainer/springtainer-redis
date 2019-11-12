@@ -21,7 +21,7 @@
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.redis.enabled` (default is `true`)
 - `embedded.container.redis.startup-timeout` (default is `30`)
-- `embedded.container.redis.docker-image` (default is `redis:4.0.14-alpine`)
+- `embedded.container.redis.docker-image` (default is `redis:5.0.6-alpine`)
 - `embedded.container.redis.port` (default is `6379`)
 
 Properties provided (in `application-it.properties`):
