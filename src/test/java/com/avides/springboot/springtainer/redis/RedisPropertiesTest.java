@@ -1,4 +1,4 @@
-package com.avides.springboot.testcontainer.redis;
+package com.avides.springboot.springtainer.redis;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;

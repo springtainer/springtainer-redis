@@ -1,4 +1,4 @@
-package com.avides.springboot.testcontainer.redis;
+package com.avides.springboot.springtainer.redis;
 
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

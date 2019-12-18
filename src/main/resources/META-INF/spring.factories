@@ -1,2 +1,2 @@
 org.springframework.cloud.bootstrap.BootstrapConfiguration=\
-com.avides.springboot.testcontainer.redis.EmbeddedRedisContainerAutoConfiguration
+com.avides.springboot.springtainer.redis.EmbeddedRedisContainerAutoConfiguration
