@@ -1,6 +1,6 @@
-package com.avides.springboot.testcontainer.redis;
+package com.avides.springboot.springtainer.redis;
 
-import static com.avides.springboot.testcontainer.redis.RedisProperties.BEAN_NAME;
+import static com.avides.springboot.springtainer.redis.RedisProperties.BEAN_NAME;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -14,8 +14,8 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.Ordered;
 import org.springframework.core.env.ConfigurableEnvironment;
 
-import com.avides.springboot.testcontainer.common.container.AbstractBuildingEmbeddedContainer;
-import com.avides.springboot.testcontainer.common.container.EmbeddedContainer;
+import com.avides.springboot.springtainer.common.container.AbstractBuildingEmbeddedContainer;
+import com.avides.springboot.springtainer.common.container.EmbeddedContainer;
 
 import io.lettuce.core.RedisClient;
 
