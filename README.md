@@ -1,6 +1,6 @@
 # springtainer-redis
 
-[![Maven Central](https://img.shields.io/maven-metadata/v/http/central.maven.org/maven2/com/avides/springboot/springtainer/springtainer-redis/maven-metadata.xml.svg)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.avides.springboot.springtainer%22%20AND%20a%3A%22springtainer-redis%22)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-redis)
 [![Build](https://github.com/springtainer/springtainer-redis/workflows/release/badge.svg)](https://github.com/springtainer/springtainer-redis/actions)
 [![Nightly build](https://github.com/springtainer/springtainer-redis/workflows/nightly/badge.svg)](https://github.com/springtainer/springtainer-redis/actions)
 [![Coverage report](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=coverage)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-redis)
@@ -12,7 +12,7 @@
 <dependency>
 	<groupId>com.avides.springboot.springtainer</groupId>
 	<artifactId>springtainer-redis</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<scope>test</scope>
 </dependency>
 ```
@@ -21,7 +21,7 @@
 Properties consumed (in `bootstrap.properties`):
 - `embedded.container.redis.enabled` (default is `true`)
 - `embedded.container.redis.startup-timeout` (default is `30`)
-- `embedded.container.redis.docker-image` (default is `redis:5.0.6-alpine`)
+- `embedded.container.redis.docker-image` (default is `redis:6.0.5-alpine`)
 - `embedded.container.redis.port` (default is `6379`)
 
 Properties provided (in `application-it.properties`):
