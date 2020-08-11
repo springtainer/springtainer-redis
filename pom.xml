@@ -3,7 +3,7 @@
 
   <groupId>com.avides.springboot.springtainer</groupId>
   <artifactId>springtainer-redis</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
 
   <name>springtainer-redis</name>
   <description>Redis test-container</description>
@@ -59,7 +59,7 @@
     <spring.version>5.2.7.RELEASE</spring.version>
     <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
     <!-- Other -->
-    <springtainer-common.version>1.1.2</springtainer-common.version>
+    <springtainer-common.version>1.2.0</springtainer-common.version>
     <lombok.version>1.18.12</lombok.version>
     <!-- Testing -->
     <jacoco.version>0.8.5</jacoco.version>
