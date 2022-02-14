@@ -32,7 +32,7 @@ public class EmbeddedRedisContainerAutoConfiguration
         return new RedisContainer("redis", environment, properties);
     }
 
-    public class RedisContainer extends AbstractBuildingEmbeddedContainer<RedisProperties>
+    public static class RedisContainer extends AbstractBuildingEmbeddedContainer<RedisProperties>
     {
         public RedisContainer(String string, ConfigurableEnvironment environment, RedisProperties properties)
         {
