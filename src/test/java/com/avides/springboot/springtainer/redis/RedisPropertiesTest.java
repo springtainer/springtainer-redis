@@ -10,10 +10,10 @@ public class RedisPropertiesTest
     @Test
     public void testDefaults()
     {
-        RedisProperties properties = new RedisProperties();
+        var properties = new RedisProperties();
         assertTrue(properties.isEnabled());
         assertEquals(30, properties.getStartupTimeout());
-        assertEquals("redis:6.2.6-alpine", properties.getDockerImage());
+        assertEquals("redis:6.2.11-alpine", properties.getDockerImage());
 
         assertEquals(6379, properties.getPort());
     }

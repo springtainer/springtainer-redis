@@ -14,7 +14,7 @@
 <dependency>
   <groupId>com.avides.springboot.springtainer</groupId>
   <artifactId>springtainer-redis</artifactId>
-  <version>1.3.0</version>
+  <version>1.4.0</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -25,7 +25,7 @@ Properties consumed (in `bootstrap.properties`):
 
 - `embedded.container.redis.enabled` (default is `true`)
 - `embedded.container.redis.startup-timeout` (default is `30`)
-- `embedded.container.redis.docker-image` (default is `redis:6.2.6-alpine`)
+- `embedded.container.redis.docker-image` (default is `redis:6.2.11-alpine`)
 - `embedded.container.redis.port` (default is `6379`)
 
 Properties provided (in `application-it.properties`):
