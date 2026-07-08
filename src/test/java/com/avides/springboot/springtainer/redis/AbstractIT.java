@@ -1,18 +1,18 @@
 package com.avides.springboot.springtainer.redis;
 
-import org.junit.runner.RunWith;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.annotation.DirtiesContext;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.core.DockerClientBuilder;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest(properties = { "spring.redis.host=${embedded.container.redis.host}", "spring.redis.port=${embedded.container.redis.port}" })
+@ExtendWith(SpringExtension.class)
+@SpringBootTest(properties = { "spring.data.redis.host=${embedded.container.redis.host}", "spring.data.redis.port=${embedded.container.redis.port}" })
 @DirtiesContext
 public abstract class AbstractIT
 {
