@@ -14,7 +14,7 @@
 <dependency>
   <groupId>com.avides.springboot.springtainer</groupId>
   <artifactId>springtainer-redis</artifactId>
-  <version>2.0.8</version>
+  <version>2.0.0-RC1</version>
   <scope>test</scope>
 </dependency>
 ```
