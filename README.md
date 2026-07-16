@@ -1,11 +1,10 @@
 # springtainer-redis
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-redis/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.avides.springboot.springtainer/springtainer-redis)
-[![Build](https://github.com/springtainer/springtainer-redis/workflows/release/badge.svg)](https://github.com/springtainer/springtainer-redis/actions)
-[![Nightly build](https://github.com/springtainer/springtainer-redis/workflows/nightly/badge.svg)](https://github.com/springtainer/springtainer-redis/actions)
-[![Coverage report](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=coverage)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-redis)
-[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=alert_status)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-redis)
-[![Technical dept](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=sqale_index)](https://sonarcloud.io/dashboard?id=springtainer_springtainer-redis)
+[![Maven Central](https://img.shields.io/maven-central/v/com.avides.springboot.springtainer/springtainer-redis.svg?label=maven-central)](https://search.maven.org/artifact/com.avides.springboot.springtainer/springtainer-redis)
+[![Release](https://github.com/springtainer/springtainer-redis/actions/workflows/release.yml/badge.svg)](https://github.com/springtainer/springtainer-redis/actions/workflows/release.yml)
+[![Nightly build](https://github.com/springtainer/springtainer-redis/actions/workflows/nightly.yml/badge.svg)](https://github.com/springtainer/springtainer-redis/actions/workflows/nightly.yml)
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=springtainer_springtainer-redis)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=springtainer_springtainer-redis&metric=coverage)](https://sonarcloud.io/summary/new_code?id=springtainer_springtainer-redis)
 
 ### Dependency
 
