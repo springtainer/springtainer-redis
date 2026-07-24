@@ -52,7 +52,14 @@ public class EmbeddedRedisContainerAutoConfiguration
         protected boolean isContainerReady(RedisProperties properties)
         {
             RedisClient redisClient = RedisClient.create("redis://" + getContainerHost() + ":" + getContainerPort(properties.getPort()));
-            redisClient.connect();
+            try
+            {
+                redisClient.connect().close();
+            }
+            finally
+            {
+                redisClient.shutdown();
+            }
             return true;
         }
     }

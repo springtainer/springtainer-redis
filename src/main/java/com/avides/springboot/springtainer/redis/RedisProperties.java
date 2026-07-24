@@ -20,6 +20,6 @@ public class RedisProperties extends AbstractEmbeddedContainerProperties
 
     public RedisProperties()
     {
-        setDockerImage("redis:6.2.11-alpine");
+        setDockerImage("redis:6.2.22-alpine");
     }
 }
